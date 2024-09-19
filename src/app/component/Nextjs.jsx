@@ -7,19 +7,20 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 
 const project=[
+ 
+  {
+    title:"Herne Movie Website",
+    description:"The website made on nextjs by using tmdb Api.",
+    github:"https://github.com/nabin69-nep/Movie-Webiste",
+    live:"https://herne.vercel.app/",
+    img:"/Images/herne.png",
+  },
   {
     title:"Glocery App",
     description:"The Glocery app was designed in Figma.",
     github:"",
     live:"https://www.figma.com/proto/MJgcSBDLc92ENqfVkdZK0q/project-1?node-id=2037-5&node-type=canvas&t=jP3HHiKXakZVnM7F-0&scaling=min-zoom&content-scaling=fixed&page-id=2022%3A2&starting-point-node-id=2037%3A5&show-proto-sidebar=1",
     img:"/Images/food.png",
-  },
-  {
-    title:"Herne Movie Website",
-    description:"The website made on nextjs by using tmdb Api.",
-    github:"https://github.com/nabin69-nep/Movie-Webiste",
-    live:"https://herne.vercel.app/",
-    img:"/Images/Herne.png",
   },
   {
     title:"Weather App",
