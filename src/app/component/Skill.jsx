@@ -73,6 +73,13 @@ const people = [
     image:
       "/Images/Figma.png",
   },
+  {
+    id: 11,
+    name: "SCSS",
+    designation: "Sassy Cascading Style Sheets",
+    image:
+      "/Images/scss.webp",
+  },
 ];
 
  function SparklesPreview() {
