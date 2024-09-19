@@ -2,8 +2,8 @@
 import React from "react";
 import {
   TextRevealCard,
-} from "@/components/ui/text-reveal-card";
-import Tab from "./Tab"
+} from "@/components/ui/text-reveal-card"
+import Nextjs from "./Nextjs"
  function TextRevealCardPreview() {
   return (
 <>
@@ -12,7 +12,7 @@ import Tab from "./Tab"
       <TextRevealCard text="Portfolio" revealText="Portfolio ">
       </TextRevealCard>
     </div>
-    {/* <Tab /> */}
+    <Nextjs />
           </>
 
     
