@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
-
+import Navbar from "./component/Navbar";
+import Theme from "./component/Theme";
+import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -20,10 +22,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        >
+          <BackgroundBeamsWithCollision>
+        <Theme  />
+        <Navbar/>
+        <main>
         {children}
+        </main>
+        </BackgroundBeamsWithCollision>
       </body>
     </html>
   );
