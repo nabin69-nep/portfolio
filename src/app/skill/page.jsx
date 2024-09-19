@@ -7,3 +7,10 @@ export default function skill() {
     </section>
   )
 }
+export function generateMetadata({ data }) {
+  return {
+    title:"Nabin | Skill",
+    description:"Get all your movies and show on herne",
+  };
+
+}

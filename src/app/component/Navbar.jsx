@@ -41,7 +41,7 @@ import { FaRocket } from "react-icons/fa6";
     },
   ];
   return (
-    (<div className="flex items-center justify-center  z-[99999] right-0  fixed bottom-0 w-full">
+    (<div className="flex items-center justify-center  z-[999] right-0  fixed bottom-0 w-full">
       <FloatingDock
         items={links} />
     </div>)
