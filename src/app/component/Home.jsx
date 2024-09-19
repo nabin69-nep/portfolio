@@ -33,7 +33,7 @@ import { FaInstagram } from "react-icons/fa";
   return (
     <div className='mx-auto container flex sm:flex-row flex-col h-screen sm:justify-center gap-10 items-center '>
         <div className="sm:order-1  order-5 sm:block flex flex-col justify-center items-center"> 
-            <h1><span className=" sm:text-2xl text-xl md:text-4xl  font-bold">Hi, It's me</span> <TypewriterEffectSmooth  words={words} /> </h1>
+            <h1><span className=" sm:text-2xl text-xl md:text-4xl  font-bold">Hi, It&apos;s me</span> <TypewriterEffectSmooth  words={words} /> </h1>
             <h2 className="flex items-center gap-3"><span className="text-xl font-bold dark:text-white text-[#003049]">Front-End Developer</span> <Image src="/Images/rocket.gif" alt=""  width={40} height={30}/></h2>
             <div className="flex ml-16 sm:ml-0 gap-5 mt-5  ">
             <HoverBorderGradient
