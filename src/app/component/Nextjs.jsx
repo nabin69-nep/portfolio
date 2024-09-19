@@ -8,6 +8,13 @@ import { FaGithub } from "react-icons/fa";
 
 const project=[
   {
+    title:"Glocery App",
+    description:"The Glocery app was designed in Figma.",
+    github:"",
+    live:"https://www.figma.com/proto/MJgcSBDLc92ENqfVkdZK0q/project-1?node-id=2037-5&node-type=canvas&t=jP3HHiKXakZVnM7F-0&scaling=min-zoom&content-scaling=fixed&page-id=2022%3A2&starting-point-node-id=2037%3A5&show-proto-sidebar=1",
+    img:"/Images/food.png",
+  },
+  {
     title:"Herne Movie Website",
     description:"The website made on nextjs by using tmdb Api.",
     github:"https://github.com/nabin69-nep/Movie-Webiste",
@@ -35,13 +42,7 @@ const project=[
     live:"https://www.figma.com/proto/MJgcSBDLc92ENqfVkdZK0q/project-1?node-id=2013-82&node-type=canvas&t=jP3HHiKXakZVnM7F-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
     img:"/Images/portfolio.png",
   },
-  {
-    title:"Glocery App",
-    description:"The Glocery app was designed in Figma.",
-    github:"",
-    live:"https://www.figma.com/proto/MJgcSBDLc92ENqfVkdZK0q/project-1?node-id=2037-5&node-type=canvas&t=jP3HHiKXakZVnM7F-0&scaling=min-zoom&content-scaling=fixed&page-id=2022%3A2&starting-point-node-id=2037%3A5&show-proto-sidebar=1",
-    img:"/Images/food.png",
-  },
+
   {
     title:"NabinTravel",
     description:"Created utilizing HTML, CSS, and JavaScript.",

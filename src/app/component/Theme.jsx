@@ -4,7 +4,7 @@ import { MdDarkMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";
 
 export default function Theme() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   useEffect(() => {
     const theme = localStorage.getItem("theme");
     if (theme === "dark") {

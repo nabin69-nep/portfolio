@@ -7,7 +7,7 @@ import Image from "next/image";
 const content = [
   {
     title: "Nabin Khadka",
-    description: `Welcome to my website! I \u2019m Mr. Nabin Khadka, originally from Kailali and raised in Kathmandu.`,
+    description: `I\u2019m Mr. Nabin Khadka, an 18-year-old boy who loves to travel. Fun fact: 6 + 9 != 69 .`,
     
     
     content: (

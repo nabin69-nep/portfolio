@@ -43,7 +43,7 @@ const people = [
     name: "Tailwind",
     designation: "Tailwind CSS is an open-source CSS framework",
     image:
-      "/Images/tailwind.png",
+      "/Images/Tailwind.png",
   },
   {
     id: 7,
