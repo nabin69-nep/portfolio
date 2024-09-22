@@ -9,7 +9,7 @@ export default function about() {
 }
 export function generateMetadata({ data }) {
   return {
-    title:"About Nabin",
+    title:"About | Nabin",
     description:"Get all your movies and show on herne",
   };
 

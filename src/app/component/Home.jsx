@@ -40,7 +40,7 @@ import { FaInstagram } from "react-icons/fa";
         containerClassName="rounded-full"
         as="button"
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2">
-        <Link href="/resume/NabinKhadkaProfile.pdf">Resume</Link><MdOutlineFileDownload className="text-xl" />
+        <Link href="/resume/NabinKhadka_Profile.pdf">Resume</Link><MdOutlineFileDownload className="text-xl" />
       </HoverBorderGradient>
             <HoverBorderGradient onClick={()=>handleClick()}
         containerClassName="rounded-full "
