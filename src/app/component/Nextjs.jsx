@@ -23,6 +23,20 @@ const project=[
     img:"/Images/food.png",
   },
   {
+    title:"Todo-App",
+    description:"Made with Next.js, MongoDB, Tailwind, and SWR updates.",
+    github:"https://github.com/nabin69-nep/todo-app",
+    live:"",
+    img:"/Images/todo-App.png",
+  },
+  {
+    title:"Paisasatne",
+    description:"A currency converter app with real-time exchange rates.",
+    github:"https://github.com/nabin69-nep/hamroPaisa",
+    live:"https://paisasatne.vercel.app/",
+    img:"/Images/currency-converter App.png",
+  },
+  {
     title:"Weather App",
     description:"Built using Next.js with the integration of a weather API.",
     github:"https://github.com/nabin69-nep/Weather-App",
@@ -77,17 +91,20 @@ const project=[
                     height="1000"
                     width="1000"
                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                    alt="thumbnail" />
+                    alt={item.title} />
                 </CardItem>
                 <div className="flex justify-between items-center mt-20">
-                  <CardItem
-                    translateZ={20}
-                    as={Link}
-                    href={item.live}
-                      target="__blank"
-                    className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white">
-                      Live now →
-                  </CardItem>
+                  {
+                    item.live && (
+                      <CardItem
+                        translateZ={20}
+                        as={Link}
+                        href={item.live}
+                          target="__blank"
+                        className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white">
+                        Live now →
+                    </CardItem>)
+                  }
                   {
                     item.github && (
                       <CardItem
