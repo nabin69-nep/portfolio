@@ -80,6 +80,27 @@ const people = [
     image:
       "/Images/scss.webp",
   },
+  {
+    id: 12,
+    name: "Nodejs",
+    designation: "Runtime Environment for js",
+    image:
+      "/Images/node.png",
+  },
+  {
+    id: 13,
+    name: "C++",
+    designation: "generic programming language for building software",
+    image:
+      "/Images/c++.svg",
+  },
+  {
+    id: 14,
+    name: "Express",
+    designation: "back end web application framework",
+    image:
+      "/Images/express.png",
+  },
 ];
 
  function SparklesPreview() {
