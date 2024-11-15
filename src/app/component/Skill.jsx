@@ -5,101 +5,95 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 const people = [
   {
     id: 1,
-    name: "Html",
-    designation: "Hypertext Markup Language", 
+    name: "Html", 
     image:
       "/Images/Html.png",
   },
   {
     id: 2,
     name: "Css",
-    designation: "Cascading Style Sheets",
     image:
       "/Images/Css.png",
   },
   {
     id: 3,
     name: "JavaScript",
-    designation: "JavaScript to program the behavior of web pages",
     image:
       "/Images/Js.png",
   },
   {
     id: 4,
     name: "React",
-    designation: "React is the library for web and native user interfaces",
     image:
       "/Images/React.png",
   },
   {
     id: 5,
     name: "Next Js",
-    designation: "Next.js is an open-source web development framework made over React",
     image:
       "/Images/nextjs.jpg",
   },
   {
     id: 6,
     name: "Tailwind",
-    designation: "Tailwind CSS is an open-source CSS framework",
     image:
       "/Images/Tailwind.png",
   },
   {
     id: 7,
     name: "Firebase",
-    designation: "Firebase provides detailed documentation and cross-platform app development",
     image:
       "/Images/Firebase.png",
   },
   {
     id: 8,
     name: "Git",
-    designation: "Git is a distributed version control system that tracks versions of files.",
     image:
       "/Images/Git.png",
   },
   {
     id: 9,
     name: "C",
-    designation: "C is a general-purpose programming language",
     image:
       "/Images/C.png",
   },
   {
     id: 10,
     name: "Figma",
-    designation: "Figma is a collaborative web application for interface design.",
     image:
       "/Images/Figma.png",
   },
   {
     id: 11,
     name: "SCSS",
-    designation: "Sassy Cascading Style Sheets",
+    
     image:
       "/Images/scss.webp",
   },
   {
     id: 12,
     name: "Nodejs",
-    designation: "Runtime Environment for js",
+    
     image:
       "/Images/node.png",
   },
   {
     id: 13,
     name: "C++",
-    designation: "generic programming language for building software",
     image:
       "/Images/c++.svg",
   },
   {
     id: 14,
     name: "Express",
-    designation: "back end web application framework",
     image:
       "/Images/express.png",
+  },
+  {
+    id: 15,
+    name: "Wordpress",
+    image:
+      "/Images/wordpress.png",
   },
 ];
 
