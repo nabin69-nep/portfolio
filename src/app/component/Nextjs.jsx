@@ -9,6 +9,13 @@ import { FaGithub } from "react-icons/fa";
 const project=[
  
   {
+    title:"Global Notes",
+    description:"Website for Class 11 and 12 Notes in Nepal.",
+    github:"",
+    live:"https://globalnotees.com/",
+    img:"/Images/globalnotes.png",
+  },
+  {
     title:"Herne Movie Website",
     description:"The website made on nextjs by using tmdb Api.",
     github:"https://github.com/nabin69-nep/Movie-Webiste",
