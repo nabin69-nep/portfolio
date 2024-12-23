@@ -44,7 +44,7 @@ function Home() {
           </span>{" "}
           <Image src="/Images/rocket.gif" alt="" width={40} height={30} />
         </h2>
-        <div className="flex ml-16 sm:ml-0 gap-5 mt-5  ">
+        <div className="flex sm:ml-0 gap-5 mt-5  ">
           <HoverBorderGradient
             containerClassName="rounded-full"
             as="button"
@@ -100,7 +100,10 @@ function Home() {
           </Link>
         </div>
       </div>
-      <div className="p-2  border-2 sm:order-5 sm:mt-0 mt-8 order-1 border-black dark:border-white rounded-3xl">
+      <div
+        data-aos="zoom-in"
+        className="p-2  border-2 sm:order-5 sm:mt-0 mt-8 order-1 border-black dark:border-white rounded-3xl"
+      >
         <Image
           src="/Images/IMG_4372.jpg"
           className="sm:hidden rounded-xl"

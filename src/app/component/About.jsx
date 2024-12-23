@@ -10,7 +10,7 @@ const content = [
     description: `I\u2019m Mr. Nabin Khadka, an 19-year-old boy who loves to travel. Fun fact: 6 + 9 != 69 .`,
     
     
-    content: (
+    content: ( 
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
           src="/Images/me.jpg"
