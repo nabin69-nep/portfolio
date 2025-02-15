@@ -10,7 +10,7 @@ export default function portfolio() {
 export function generateMetadata({ data }) {
   return {
     title:"Nabin | Portfolio",
-    description:"Get all your movies and show on herne",
+    description:"Get all my Project work here...",
   };
 
 }
